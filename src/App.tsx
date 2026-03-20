@@ -20,14 +20,15 @@ function App() {
             </div>
           </div>
 
-          <p className="text-primary tracking-[0.3em] uppercase text-sm mb-6">С 2024 года</p>
+          <p className="text-primary tracking-[0.3em] uppercase text-sm mb-6">Научное исследование</p>
 
-          <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl text-foreground mb-6 leading-tight">
-            <span className="text-gold-gradient">Золотой</span>Капитал
+          <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl text-foreground mb-6 leading-tight">
+            <span className="text-gold-gradient">Самооценка,</span>{" "}
+            мышление и успеваемость
           </h1>
 
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-12">
-            Эксклюзивный клуб для взыскательных инвесторов, открывающий доступ к уникальным возможностям в альтернативных активах.
+            Исследование взаимосвязи самооценки, типа мышления и академической успеваемости учащихся 5–9 классов
           </p>
 
           {/* Decorative bottom element */}
@@ -60,17 +61,17 @@ function App() {
 
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div>
-              <p className="text-primary tracking-[0.2em] uppercase text-sm mb-4">Наша философия</p>
+              <p className="text-primary tracking-[0.2em] uppercase text-sm mb-4">Актуальность исследования</p>
               <h2 className="font-serif text-4xl md:text-5xl text-foreground mb-6 leading-tight text-balance">
-                Где видение встречает возможности
+                Где внутреннее «я» встречает учёбу
               </h2>
             </div>
             <div className="space-y-6">
               <p className="text-muted-foreground leading-relaxed text-lg">
-                В мире обычных инвестиций мы ищем исключительное. ЗолотойКапитал объединяет избранный круг дальновидных инвесторов, которые понимают, что истинное богатство строится через доступ к возможностям, недоступным массовому рынку.
+                Самооценка подростка — один из ключевых факторов, определяющих его готовность учиться, принимать вызовы и справляться с трудностями. Исследование охватывает учащихся 5–9 классов в период наиболее интенсивного личностного роста.
               </p>
               <p className="text-muted-foreground leading-relaxed text-lg">
-                От музейного изобразительного искусства до винтажных автомобилей высшего класса, от редких коллекционных предметов до новых альтернативных активов — мы отбираем, проверяем и представляем только исключительное.
+                Мы изучаем, как тип мышления — фиксированное или развивающееся — влияет на отношение к учёбе и насколько академические результаты зависят от внутреннего образа себя, а не только от способностей.
               </p>
             </div>
           </div>
@@ -81,40 +82,37 @@ function App() {
       <section className="py-24 px-6 bg-card/50">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <p className="text-primary tracking-[0.2em] uppercase text-sm mb-4">Наши направления</p>
-            <h2 className="font-serif text-4xl md:text-5xl text-foreground text-balance">Кураторское совершенство</h2>
+            <p className="text-primary tracking-[0.2em] uppercase text-sm mb-4">Направления исследования</p>
+            <h2 className="font-serif text-4xl md:text-5xl text-foreground text-balance">Три ключевых аспекта</h2>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
             <ServiceCard
-              title="Изобразительное искусство"
-              description="Доступ к работам музейного качества от признанных мастеров и современных визионеров, отобранных экспертами мирового уровня."
+              title="Самооценка"
+              description="Анализ уровня самооценки у подростков: как она формируется, как связана с эмоциональным состоянием и готовностью к учебным вызовам."
               icon={
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-12 h-12">
-                  <rect x="3" y="3" width="18" height="18" rx="2" />
-                  <circle cx="8.5" cy="8.5" r="1.5" />
-                  <path d="M21 15l-5-5L5 21" />
+                  <circle cx="12" cy="8" r="4" />
+                  <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7" />
                 </svg>
               }
             />
             <ServiceCard
-              title="Редкие коллекции"
-              description="От винтажных часов до исторических реликвий — каждый предмет с подтвержденной подлинностью и провенансом высочайшего стандарта."
+              title="Тип мышления"
+              description="Исследование фиксированного и развивающегося мышления по Кэрол Дуэк: как убеждения о собственных способностях определяют учебное поведение."
               icon={
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-12 h-12">
-                  <circle cx="12" cy="12" r="9" />
-                  <path d="M12 6v6l4 2" />
+                  <path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2v-4M9 21H5a2 2 0 01-2-2v-4m0 0h18" />
                 </svg>
               }
             />
             <ServiceCard
-              title="Классические автомобили"
-              description="Исключительные автомобили исторической значимости, каждый из которых представляет вершину автомобильного искусства и инженерии."
+              title="Академическая успеваемость"
+              description="Выявление корреляций между психологическими характеристиками и учебными результатами: оценками, мотивацией и учебной активностью."
               icon={
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-12 h-12">
-                  <path d="M5 17h14M6 9l2-4h8l2 4M4 14h16v3H4z" />
-                  <circle cx="7" cy="17" r="2" />
-                  <circle cx="17" cy="17" r="2" />
+                  <path d="M12 20h9M12 4h9M4 4l4 4-4 4" />
+                  <path d="M4 14l4 4-4 4" />
                 </svg>
               }
             />
@@ -135,11 +133,11 @@ function App() {
 
             <blockquote className="relative z-10">
               <p className="font-serif text-2xl md:text-3xl text-foreground leading-relaxed italic mb-8">
-                Членство в ЗолотойКапитал изменило мой подход к альтернативным инвестициям. Качество возможностей и уровень сервиса просто несравнимы.
+                Не способности определяют успех, а вера в то, что эти способности можно развить. Мышление о росте меняет всё.
               </p>
               <footer className="text-muted-foreground">
-                <span className="text-primary">—</span> Уважаемый член клуба,{" "}
-                <span className="text-primary">Москва</span>
+                <span className="text-primary">—</span> Кэрол Дуэк,{" "}
+                <span className="text-primary">профессор психологии, Стэнфорд</span>
               </footer>
             </blockquote>
           </div>
@@ -155,10 +153,10 @@ function App() {
         <div className="max-w-3xl mx-auto relative z-10">
           <div className="text-center mb-12">
             <ArtDecoDivider variant="chevron" />
-            <p className="text-primary tracking-[0.2em] uppercase text-sm mb-4">Начните свой путь</p>
-            <h2 className="font-serif text-4xl md:text-5xl text-foreground mb-6 text-balance">Запросить приглашение</h2>
+            <p className="text-primary tracking-[0.2em] uppercase text-sm mb-4">Присоединиться к исследованию</p>
+            <h2 className="font-serif text-4xl md:text-5xl text-foreground mb-6 text-balance">Получить результаты</h2>
             <p className="text-muted-foreground text-lg max-w-xl mx-auto">
-              Членство предоставляется только по приглашению. Оставьте заявку, и наш представитель свяжется с вами для обсуждения возможного сотрудничества.
+              Оставьте email — получите сводку результатов исследования и практические рекомендации для педагогов и родителей.
             </p>
           </div>
 
@@ -180,18 +178,18 @@ function App() {
           <div className="flex flex-col items-center gap-6">
             <div className="flex items-center gap-4">
               <div className="w-12 h-px bg-primary" />
-              <span className="font-serif text-xl text-foreground">ЗолотойКапитал</span>
+              <span className="font-serif text-xl text-foreground">Исследование</span>
               <div className="w-12 h-px bg-primary" />
             </div>
 
-            <p className="text-muted-foreground text-sm text-center">
-              &copy; {new Date().getFullYear()} ЗолотойКапитал. Все права защищены. Членство только по приглашению.
+            <p className="text-muted-foreground text-sm text-center max-w-md">
+              Взаимосвязь самооценки, мышления и академической успеваемости учащихся 5–9 классов
             </p>
 
-            <div className="flex items-center gap-1">
-              {Array.from({ length: 5 }).map((_, i) => (
-                <div key={i} className="w-1 h-1 bg-primary" style={{ opacity: 1 - i * 0.15 }} />
-              ))}
+            <div className="flex items-center gap-2 text-muted-foreground/50 text-xs">
+              <div className="w-4 h-px bg-muted-foreground/30" />
+              <span>© 2024</span>
+              <div className="w-4 h-px bg-muted-foreground/30" />
             </div>
           </div>
         </div>
